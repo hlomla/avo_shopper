@@ -1,10 +1,128 @@
 body {
-	background-color: lightseagreen;
-	color: whitesmoke;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.container{
-	margin: auto;
-	width: 80%;
-}
+    height: 100%;
+    width: 100%;
+    background-image: url("avocado-img.jpeg");
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  .avocado { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+     
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  
+ 
+    height: 100%;
+    width: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .avocado {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.8);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+  }
+  .shop-output{
+	margin-top: 100px; 
+    background-color: rgb(173, 220, 65); 
+    background-color: rgb(173, 220, 65);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .list{
+    background-color: rgb(173, 220, 65); 
+    background-color: rgb(173, 220, 65);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  .deals{
+    background-color: rgb(173, 220, 65); 
+    background-color: rgb(173, 220, 65);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  h1{
+	  text-align: center;
+  }

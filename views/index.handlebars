@@ -1,1 +1,69 @@
-<h2>Best deals</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/registration_number.css">
+    <title>Avocado Shop App</title>
+</head>
+
+<body>
+    <div class="avocado">
+        <div class="text">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Avocado Shop</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+           
+                <div class="col-12">
+                    <div class="dropdown">
+                        <button class="dropbtn">Avocado Shops</button>
+                        <div class="dropdown-content">
+                            <a href="#">Fruit & Veg City</a>
+                            <a href="#">Tsjekkers</a>
+                            <a href="#">Shopryte</a>
+                            <a href="#">Pick n Play</a>
+                            <a href="#">Fruit lovers</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+             <form action="/" method="POST">
+              <div class="addShops">
+                  <h3>Add Shops</h3>
+                <div class="col-12">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="theShops" class="name-input" value=""><br>
+                    <span class="addShop">
+                        {{name}}
+                    </span>
+                </div>
+                 <div class="row">
+            <div class="col-12">
+                <button type="submit" class="Add">Add</button>
+            </div>
+             </form>      
+<div class="row">
+    <div class="col-12">
+        
+    </div>
+</div>
+               
+            </div>
+             <div class="shop-output" text-align="center">
+                    {{#each output}}
+                    <li class="btn">{{name}}</li>
+                    {{/each}}
+                </div>
+        </div>
+
+ <div class="nextRoute" style="  font-size: large; text-decoration-color: black;">
+        <a href="/shopList">Shopping List</a>
+    </div>
